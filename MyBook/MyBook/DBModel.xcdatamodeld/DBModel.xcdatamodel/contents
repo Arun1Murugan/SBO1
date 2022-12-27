@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="21G217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BookListEntity" representedClassName="BookListEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="booksList" optional="YES" attributeType="String"/>
+        <attribute name="categoryId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CategoriesEntity" representedClassName="CategoriesEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryIconImage" optional="YES" attributeType="String"/>
+        <attribute name="categoryIconUploadType" optional="YES" attributeType="String"/>
+        <attribute name="categoryId" optional="YES" attributeType="String"/>
+        <attribute name="categoryThumbUploadType" optional="YES" attributeType="String"/>
+        <attribute name="categoryTitle" optional="YES" attributeType="String"/>
+        <attribute name="catgoryThumbURL" optional="YES" attributeType="String"/>
+        <attribute name="icon_rgb" optional="YES" attributeType="String"/>
+        <attribute name="isFav" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IndividualBookEntity" representedClassName="IndividualBookEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="advPages" optional="YES" attributeType="String"/>
+        <attribute name="age_rate" optional="YES" attributeType="String"/>
+        <attribute name="bookAdded" optional="YES" attributeType="String"/>
+        <attribute name="bookAdmin" optional="YES" attributeType="String"/>
+        <attribute name="bookAuthorName" optional="YES" attributeType="String"/>
+        <attribute name="bookCategory" optional="YES" attributeType="String"/>
+        <attribute name="bookCountryCode" optional="YES" attributeType="String"/>
+        <attribute name="bookDeleted" optional="YES" attributeType="String"/>
+        <attribute name="bookDescription" optional="YES" attributeType="String"/>
+        <attribute name="bookDisabled" optional="YES" attributeType="String"/>
+        <attribute name="bookDownloadCount" optional="YES" attributeType="String"/>
+        <attribute name="bookFileName" optional="YES" attributeType="String"/>
+        <attribute name="bookHighRes" optional="YES" attributeType="String"/>
+        <attribute name="bookHtmlFiles" optional="YES" attributeType="String"/>
+        <attribute name="bookId" optional="YES" attributeType="String"/>
+        <attribute name="bookImage" optional="YES" attributeType="String"/>
+        <attribute name="bookImageUploadType" optional="YES" attributeType="String"/>
+        <attribute name="bookisLoc" optional="YES" attributeType="String"/>
+        <attribute name="bookKeywords" optional="YES" attributeType="String"/>
+        <attribute name="bookLangCode" optional="YES" attributeType="String"/>
+        <attribute name="bookLocBanner" optional="YES" attributeType="String"/>
+        <attribute name="bookLocBannerType" optional="YES" attributeType="String"/>
+        <attribute name="bookLocDes" optional="YES" attributeType="String"/>
+        <attribute name="bookLocDuration" optional="YES" attributeType="String"/>
+        <attribute name="bookLocEndTime" optional="YES" attributeType="String"/>
+        <attribute name="bookLocIcon" optional="YES" attributeType="String"/>
+        <attribute name="bookLocIconType" optional="YES" attributeType="String"/>
+        <attribute name="bookLocId" optional="YES" attributeType="String"/>
+        <attribute name="bookLocLat" optional="YES" attributeType="String"/>
+        <attribute name="bookLocLibId" optional="YES" attributeType="String"/>
+        <attribute name="bookLocLng" optional="YES" attributeType="String"/>
+        <attribute name="bookLocName" optional="YES" attributeType="String"/>
+        <attribute name="bookLocRadius" optional="YES" attributeType="String"/>
+        <attribute name="bookLocStartTime" optional="YES" attributeType="String"/>
+        <attribute name="bookLocTnxMsg" optional="YES" attributeType="String"/>
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="bookOrgFile" optional="YES" attributeType="String"/>
+        <attribute name="bookPasscode" optional="YES" attributeType="String"/>
+        <attribute name="bookPreviewCount" optional="YES" attributeType="String"/>
+        <attribute name="bookPriceIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="bookPublished" optional="YES" attributeType="String"/>
+        <attribute name="bookPublisherName" optional="YES" attributeType="String"/>
+        <attribute name="bookRatings" optional="YES" attributeType="String"/>
+        <attribute name="bookSplitedPages" optional="YES" attributeType="String"/>
+        <attribute name="booksToc" optional="YES" attributeType="String"/>
+        <attribute name="bookType" optional="YES" attributeType="String"/>
+        <attribute name="bookUpdated" optional="YES" attributeType="String"/>
+        <attribute name="bookUserId" optional="YES" attributeType="String"/>
+        <attribute name="formats" optional="YES" attributeType="String"/>
+        <attribute name="geoblock" optional="YES" attributeType="String"/>
+        <attribute name="is_lndscape" optional="YES" attributeType="String"/>
+        <attribute name="is_portrait" optional="YES" attributeType="String"/>
+        <attribute name="is_sharing" optional="YES" attributeType="String"/>
+        <attribute name="is_tocAvailable" optional="YES" attributeType="String"/>
+        <attribute name="isAdsupported" optional="YES" attributeType="String"/>
+        <attribute name="isArticleAvailable" optional="YES" attributeType="String"/>
+        <attribute name="isInternational" optional="YES" attributeType="String"/>
+        <attribute name="ismagfly" optional="YES" attributeType="String"/>
+        <attribute name="isPreviewAvailable" optional="YES" attributeType="String"/>
+        <attribute name="isPrime" optional="YES" attributeType="String"/>
+        <attribute name="iss_version" optional="YES" attributeType="String"/>
+        <attribute name="isSubscriptionAvailable" optional="YES" attributeType="String"/>
+        <attribute name="lastReadPage" optional="YES" attributeType="String"/>
+        <attribute name="locationaccess_type" optional="YES" attributeType="String"/>
+        <attribute name="locationtime_acess" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="priceInCurr" optional="YES" attributeType="String"/>
+        <attribute name="rank" optional="YES" attributeType="String"/>
+        <attribute name="relatedBooks" optional="YES" attributeType="String"/>
+        <attribute name="thumbAuto" optional="YES" attributeType="String"/>
+        <attribute name="time_based" optional="YES" attributeType="String"/>
+        <attribute name="version" optional="YES" attributeType="String"/>
+    </entity>
+</model>
