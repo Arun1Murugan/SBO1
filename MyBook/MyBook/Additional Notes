@@ -1,0 +1,14 @@
+Used API
+https://bookmaddie.com/webservice/form/webserviceForm.php
+
+Get Categories
+http://bookmaddie.com/webservice/api/get_categories.json (Mandatory -> categoryCountry)
+
+Get Books List
+http://bookmaddie.com/webservice/api/get_books.json (Mandatory -> bookCategory)
+
+Get Books Details List
+http://bookmaddie.com/webservice/api/get_books_details.json  (Mandatory -> bookCategory)
+
+pdf Tutorial link
+https://pspdfkit.com/blog/2019/how-to-show-a-pdf-in-swiftui/
